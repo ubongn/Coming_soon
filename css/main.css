@@ -17,8 +17,11 @@ body {
 }
 
 body {
-  background: url(../img/img16.jpeg) no-repeat center center fixed;
+  background: url(../img/img18.jpeg) no-repeat center center fixed;
   background-size: cover;
+  position: relative;
+  width: 100%;
+  /* height: 410px; */
   color: #fff;
   text-align: center;
   font-family: "Quicksand", sans-serif;
@@ -31,7 +34,7 @@ body {
   height: 100%;
   /* For at least Firefox */
   min-height: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  /* background: rgba(0, 0, 0, 0.9); */
   /* box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5); */
 }
 
@@ -47,13 +50,13 @@ body {
 
 
 .nub {
-  color: rgb(245, 13, 13);
-  /* font-weight: 400; */
+  color: rgb(227, 8, 8);
+  font-weight: 800;
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 51px;
+  padding: 50px;
 }
 
 /*
